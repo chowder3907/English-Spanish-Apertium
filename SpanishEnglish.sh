@@ -6,4 +6,5 @@ until [[ $spa == "q" ]]
 do
 read spa
   echo $spa | apertium spa-eng
+  echo Insert Spansish phrase
 done
