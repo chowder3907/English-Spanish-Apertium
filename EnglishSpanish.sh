@@ -1,9 +1,9 @@
 #!/bin/bash
 echo Press q to quit
 
-until [ "$eng" == "q" ]
+echo Insert English phrase
+until [[ $eng == "q" ]]
 do
-  echo Insert English phrase
-  read eng
+read eng
   echo $eng | apertium eng-spa
 done
