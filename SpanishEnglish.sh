@@ -11,6 +11,6 @@ then
   echo Insert Spanish phrase
 done
 else
-  Echo Apertium is not installed. Please install apertium and the English/Spanish modules
+  echo Apertium is not installed. Please install apertium and the English/Spanish modules
   exit
 fi
